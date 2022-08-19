@@ -1,0 +1,31 @@
+/* CSS Document */
+.wb-field {
+    margin-bottom: 5px;
+}
+.wb-label {
+    width: 29%;
+}
+.wb-input {
+    width: 60%;
+}
+.wb-label, .wb-input {
+    display: inline-block;
+}
+.wb-label label, .wb-label input {
+    vertical-align: top;
+}
+#side-sortables .wb-label, 
+#side-sortables .wb-input {
+    width: 100%;
+    margin-bottom: 5px;
+}
+#side-sortables #wntr_title .wb-label {
+    width: auto;
+    margin-right: 10px;
+}
+#side-sortables #wntr_title .wb-input {
+    width: auto;
+}
+.wb-text {
+    width: 100px;
+}
